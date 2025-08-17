@@ -1,11 +1,11 @@
-alx-graphql-0x00
+# alx-graphql-0x00
 
 This project contains GraphQL queries and outputs for the Rick and Morty GraphQL API.
 It demonstrates how to query characters and episodes using the public GraphQL endpoint:
 
 👉 https://rickandmortyapi.com/graphql
 
-📂 Structure
+## 📂 Structure
 alx-graphql-0x00/
  ├── character/
  │    ├── character-id-1.graphql
@@ -30,7 +30,7 @@ alx-graphql-0x00/
  │    ├── episode-page-1-output.json
  │    └── README.md
 
-🚀 Queries
+## 🚀 Queries
 Characters by ID
 
 Fetch character details (id, name, status, species, type, gender) by ID.
@@ -48,7 +48,7 @@ query {
   }
 }
 
-Paginated Characters
+## Paginated Characters
 
 Fetch characters by page (id, name, status, image).
 
@@ -65,7 +65,7 @@ query {
   }
 }
 
-Episode by ID
+## Episode by ID
 
 Fetch episode details (id, name, air_date, episode).
 
@@ -80,7 +80,7 @@ query {
   }
 }
 
-📌 How to Run Queries
+## 📌 How to Run Queries
 
 Go to 👉 https://rickandmortyapi.com/graphql
 
@@ -90,7 +90,7 @@ Paste into the GraphQL Playground.
 
 Save the JSON response into the corresponding *-output.json file.
 
-✅ Learning Goals
+## ✅ Learning Goals
 
 Understand GraphQL queries and parameters
 
